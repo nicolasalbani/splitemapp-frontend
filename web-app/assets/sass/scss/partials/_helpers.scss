@@ -1,0 +1,75 @@
+// Page URL: SplitemApp.com
+// Description: Helpers css
+// Author: Diego Ghersi (diego@ghersi.com.ar)
+
+.clearfix {
+    @include clearfix();
+}
+
+.cursor-help {
+    cursor: pointer;
+}
+
+.display-none {
+    display: none;
+}
+
+.display-block {
+    display: block !important;
+}
+
+.float-left {
+    float: left;
+}
+
+.float-right {
+    float: right;
+}
+
+.tt-center {
+    text-align: center !important;
+}
+
+.tt-left {
+    text-align: left !important;
+}
+
+.tt-right {
+    text-align: right !important;
+}
+
+.bold {
+    font-weight: $font-bold !important;
+}
+
+.relative {
+    position: relative;
+}
+
+.absolute {
+    position: absolute;
+}
+
+.fixed {
+    position: fixed;
+}
+
+.not-list-style {
+    list-style: none;
+}
+
+.not-list-margin {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.all-caps {
+    text-transform: uppercase;
+}
+
+.break-all {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}

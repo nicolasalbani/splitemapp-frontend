@@ -1,7 +1,7 @@
 /*!
- * EsUnGol's Gruntfile
- * http://www.esungol.com
- * Copyright 2013-2014 EsUnGol.
+ * SplitemApp's Gruntfile
+ * http://www.SplitemApp.com
+ * Copyright 2013-2014 SplitemApp.
  */
 
 // grunt wrapper
@@ -14,13 +14,13 @@ module.exports = function(grunt) {
         concat: {
             vendors: {
                 src: [
-                    '../assets/js/vendor/eug-jquery.js',
+                    '../assets/js/vendor/split-jquery.js',
                 ],
                 dest: '../web/js/main.vendors.js' // merged file
             },
             prop: {
                 src: [
-                    '../assets/js/eug/eug-fblogin.js'
+                    '../assets/js/splitemapp/split-main.js'
                 ],
                 dest: '../web/js/main.prop.js' // merged file
             },
