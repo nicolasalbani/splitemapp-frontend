@@ -5,7 +5,7 @@
  *
  * @package    SplitemApp
  * @subpackage help
- * @author     Your name here
+ * @author     Diego Ghersi <diego@ghersi.com.ar>
  */
 class helpActions extends sfActions
 {

@@ -5,7 +5,7 @@
  *
  * @package    SplitemApp
  * @subpackage misc
- * @author     Your name here
+ * @author     Diego Ghersi <diego@ghersi.com.ar>
  */
 class miscActions extends sfActions
 {
