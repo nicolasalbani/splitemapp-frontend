@@ -5,7 +5,7 @@
 @mixin clearfix() {
     &:before,
     &:after {
-        content: "";
+        content: '';
         display: table;
     }
 
@@ -63,7 +63,7 @@
     }
 }
 
-@mixin button-type-alter($color, $border-color, $background) {
+@mixin button-type-border($color, $border-color, $background) {
     color: $color;
     background-color: $background;
     border-width: 1px;
@@ -99,7 +99,7 @@
 
 @mixin tab-focus() {
     outline: thin dotted;
-    outline: 5px auto -webkit-focus-ring-color;
+    // outline: 5px auto -webkit-focus-ring-color;
     outline-offset: -2px;
 }
 

@@ -14,6 +14,10 @@
     display: none;
 }
 
+.display-inline-block {
+    display: inline-block;
+}
+
 .display-block {
     display: block !important;
 }
@@ -36,6 +40,11 @@
 
 .tt-right {
     text-align: right !important;
+}
+
+.no-tt-decoration {
+    text-decoration: none;
+    color: $font-color;
 }
 
 .bold {
@@ -72,4 +81,8 @@
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
+}
+
+.border-radius {
+    @include border-radius(3px);
 }
