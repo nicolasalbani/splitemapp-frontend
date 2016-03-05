@@ -3,3 +3,4 @@ web-app/log/*
 web-app/assets/sass/fire_app_log.txt
 web-app/assets/sass/.sass-cache/*
 web-app/grunt/node_modules/*
+*.DS_Store
